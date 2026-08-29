@@ -54,34 +54,34 @@ int main()
 	
 // Questao 3
 	
-	//declaracao das variaveis
-	
 	float nota1,nota2,nota3;
 	float peso1,peso2,peso3;
-	float media_ponderada
+	float media_ponderada;
 	
 	//captura dos valores
 	
-	printf("digite a nota1 ");
+	printf("digite a nota1: ");
 	scanf("%f",& nota1);
-	printf("digite o peso1");
+	printf("digite o peso1: ");
 	scanf("%f",& peso1);
 	
 	
-	printf("digite a nota2 ");
+	printf("digite a nota2: ");
 	scanf("%f",& nota2);
-	printf("digite o peso2");
+	printf("digite o peso2: ");
 	scanf("%f",& peso2);
 	
 	
-	printf("digite a nota3 ");
-	scanf("%f",& nota3)
-	printf("digite o peso3");
+	printf("digite a nota3: ");
+	scanf("%f",& nota3);
+	printf("digite o peso3: ");
 	scanf("%f",& peso3);
 	
 	//calculo da media
 	
-	media_ponderada = (nota1 * peso1) + (nota 2 * peso2) + (nota3 * peso3)/(peso1 + peso2 + peso3);
+	media_ponderada = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3))/(peso1 + peso2 + peso3);
+
+	printf("Resultado da media:%.2f\n", media_ponderada);
 	
 	
 // Questao 4
