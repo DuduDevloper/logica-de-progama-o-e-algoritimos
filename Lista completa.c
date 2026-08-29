@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 
 
 int main() 
@@ -232,8 +232,27 @@ int main()
 	
 //b)	
 	printf("\nCubo: %2.f", cubo);
+
+	
+//c) : d)
+	
+	double numero_raizq;
+	double numero_raizc;
+
+	printf("Insira o numera da raiz quadrada:\n");
+	scanf("%lf", &numero_raizq);
+	
+	printf("Insira o numera da raiz cubica:\n");
+	scanf("%lf", &numero_raizc);
 	
 	
+	double raiz_quadrada = sqrt(numero_raizq);
+	
+	double raiz_cubica = pow(numero_raizc,3);
+	
+	printf("Resultado:\n %.lf", raiz_quadrada);
+	
+	printf("\nResultado:\n %.lf", raiz_cubica);
 	
 
 // Questao 12 
